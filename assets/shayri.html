@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayri</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        .main-content{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 65vh;
+        }
+        .side-menu{
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            height: 65vh;
+        }
+
+        .side-menu ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            min-width: 100%;
+            gap: 1.8rem;
+        }
+        
+        .side-menu ul li{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            display: block;
+        }
+       
+        .side-menu ul li a{
+            font-size: 24px;
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            color: rgb(133, 133, 133);
+            transition:  color 0.5s;
+        }
+        
+        .side-menu ul li a:hover{
+            /* text-shadow: 2px 2px 2px white; */
+            color: white;
+            transition: text-shadow 0.5s, color 0.5s;
+        }
+        
+        .vid{
+            width: 75%;
+            height: 65vh;
+            background-color: #3b3b3b;
+        }
+        .footer{
+            width: 100%;
+            color: white;
+            height: 5vh;
+            justify-content: center;
+            display: flex;
+            align-items: flex-end center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="main-content">  
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Novel</a></li>
+            <li><a href="">Shayri</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1>Shayri Waali Diary</h1>
+    </div>
+
+    <div class="content">
+        <div class="side-menu">
+            <ul>
+                <li><a href="">Khwab</a></li>
+                <li><a href="">Zikr</a></li>
+                <li><a href="">Nigahay</a></li>
+                <li><a href="">Zulfay</a></li>
+            </ul>
+        </div>
+        <div class="vid">
+            
+        </div>
+    </div>
+    
+</div>
+<div class="footer">
+    <footer>This is freaking footer</footer>
+</div>
+</body>
+</html>
